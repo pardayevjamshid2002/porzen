@@ -1,0 +1,309 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.nav{
+    background-color: black;
+    color: rgb(117, 116, 116);
+    height: 40px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    height: 40px;
+}
+.left{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.right{
+    display: flex;
+}
+.right i{
+    margin-right: 15px;
+    color: white;
+}
+.header{
+    background-color: rgb(31, 29, 29);
+
+}
+.menu li{
+    list-style: none;
+  
+}
+.menu{
+   display: flex;
+   color: white;
+   
+}
+
+.logo{
+    color: white;
+}
+.menu li{
+    margin-left: 50px;
+    text-transform: uppercase;
+    padding: 10px 10px;
+}
+.menu li:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+.head{
+    background-image: url(1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 600px;
+    color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.part1{
+    border: 3px solid white;
+height: 250px;
+width: 250px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+text-transform: uppercase;
+
+}
+.part1 hr{
+margin: 10px 0px;
+    width: 155px;
+}
+.part1 h1{
+    font-size: 40px;
+}
+.part1 p{
+    font-size: 18px;
+}
+.part2{
+    text-align: center;
+width: 60%;
+padding-top: 50px;
+}
+.head1{
+    background-color: black;
+color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.p2 img{
+    width: 700px;
+    height: 600px;
+}
+.p1{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
+}
+.rasm{
+ display: flex;
+justify-content:space-between;
+align-items: center;
+
+}
+
+.rasm .r1{
+    margin-left: 50px;
+}
+.r2{
+    margin: 10px 35px;
+}
+.p1 hr{
+margin: 40px 0px;
+width: 120px;
+margin-left: 50px;
+}
+.rasm p{
+    margin-top: 20px;
+}
+.head2{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+margin: auto;
+background-color: black;
+color: white;
+}
+.rasm4{
+    width: 50%;
+    
+    
+}
+.rasm4 img{
+    background-image: url(4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 650px;
+    background-position: bottom ;
+}
+.word1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex-direction: column;
+
+}
+.word1 h1{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.word1 hr{
+    width: 150px;
+    margin: 30px 0px;
+}
+.word1 p{
+    text-align: center;
+    width: 60%;
+}
+.word1 button{
+    font-size: 20px;
+margin: 40px 0px;
+padding:5px 20px;
+background-color: transparent;
+color: white;
+border: 2px solid white;
+}
+.word1 button:hover{
+    cursor: pointer;
+}
+.head3{
+    color: white;
+    background-color: black;
+}
+.head3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex-direction: column;
+padding: 60px 0px;
+}
+.rasmlar1{
+    display: flex;
+}
+.rasmlar2{
+    display: flex;
+}
+.rasmlar img{
+    margin: 20px 15px;
+}
+.rasmlar p{
+    margin: 10px 15px;
+}
+.word2 hr{
+    margin: 20px 140px;
+
+}
+.head4{
+    background-color: rgba(0, 0, 0, 0.856);
+    color: white;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex-direction: column;
+
+}
+.square{
+    height: 30px;
+    width: 60px;
+    border-radius: 45%;
+    border: 2px solid white;
+    color: white;
+ padding: 5px 5px;
+}
+.ul{
+    display: flex;
+}
+.ul p{
+    font-size: 10px;
+}
+span{
+    font-size: 14px;
+}
+.head4 hr{
+    margin: 30px 70px;
+    margin-bottom: 40px;
+}
+.head4 div{
+    margin-left: 50px;
+}
+.head5{
+    display: flex;
+    justify-content: center;
+    
+width: 70%;
+margin: auto;
+color: white;
+padding: 40px 0px;
+}
+.fon{
+    background-image: url(5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.words1{
+    width: 32%;
+    text-align: start;
+}
+.words1 p{
+    padding: 30px 0px;
+}
+.words2{
+    width: 32%;
+
+}
+
+.words2 button{
+    padding: 5px 20px;
+    background-color: rgba(0, 0, 0, 0.753);
+color: white;
+margin: 10px 5px;
+}  
+.words2 button:hover{
+    cursor: pointer;
+}
+.words3{
+width: 32%;
+}
+.words3 p{
+    margin: 20px 0px;
+
+}
+.words3 button{
+    padding: 5px 20px;
+    background-color: rgba(0, 0, 0, 0.719);
+    color: white;
+}
+.words3 button:hover{
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+.head6{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0px;
+background-color: rgba(0, 0, 0, 0.822);
+color: white;
+}
